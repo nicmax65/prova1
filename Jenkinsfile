@@ -10,6 +10,7 @@ node{
   
   stage('Compile-Package'){
     echo 'Compile-Package....'
-    sh 'mvn package'
+    //sh 'mvn package'
+    bat 'mvn package'
   }
 }
